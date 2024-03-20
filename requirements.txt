@@ -1,8 +1,22 @@
-torch --index-url https://download.pytorch.org/whl/cu121
-torchvision --index-url https://download.pytorch.org/whl/cu121
-torchaudio --index-url https://download.pytorch.org/whl/cu121
-pandas==2.2.0
-numpy==1.26.4
-opencv-python==4.9.0.80
-
+# Notebook
 ipykernel==6.29.2
+ipython==8.22.2
+
+# Datasci
+scipy==1.12.0
+matplotlib==3.8.3
+numpy==1.26.4
+pandas==2.2.0
+scikit-learn==1.4.1.post1
+
+# ML /image 
+opencv-python==4.9.0.80
+pillow==10.2.0
+torch==2.2.1 --index-url https://download.pytorch.org/whl/cu121
+torchaudio==2.2.1 --index-url https://download.pytorch.org/whl/cu121
+torchvision==0.17.1 --index-url https://download.pytorch.org/whl/cu121
+
+# Others
+wandb==0.16.4
+PyYAML==6.0.1
+networkx==3.2.1
